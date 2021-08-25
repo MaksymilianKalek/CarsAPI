@@ -7,11 +7,19 @@ Car API is a simple Django API that allows you to manage a database containing m
 1. Clone the repository
 2. Navigate to the main folder
 3. Run
-4. You might now need to wait about 45 seconds for the application to start
 ```bash
 docker-compose up --build
 ```
-The app should now be running locally at your PC at <http://localhost:8000/>
+4. You might now need to wait about 45 seconds for the application to start
+5. In separate shell login to the running docker container, eg.
+```bash
+docker exec -i -t 2d142f9c9060 bash
+```
+6. And than run 
+```bash
+python manage.py makemigrations; python manage.py migrate
+```
+The app should now be up and running locally at your PC at <http://localhost:8000/>
 
 ## Usage
 
