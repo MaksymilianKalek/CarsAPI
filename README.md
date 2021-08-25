@@ -11,7 +11,7 @@ Car API is a simple Django API that allows you to manage a database containing m
 docker-compose up --build
 ```
 4. You might now need to wait about 45 seconds for the application to start
-5. In separate shell login to the running docker container, eg.
+5. In a separate shell login to the running docker container, eg.
 ```bash
 docker exec -i -t 2d142f9c9060 bash
 ```
