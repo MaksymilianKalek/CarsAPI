@@ -8,7 +8,7 @@ Car API is a simple Django API that allows you to manage a database containing m
 2. Navigate to the main folder
 3. Run
 ```bash
-docker-compose up
+docker-compose up --build
 ```
 The app should now be running locally at your PC at <http://localhost:8000/>
 
