@@ -22,3 +22,9 @@ You can visit this working API at <http://netguru-cars-api-kalek.herokuapp.com>
 * DELETE /cars/id/ - send a DELETE request that will delete an existing car where id is a valid id of a car
 * GET /cars/- get the list of all authors
 * GET /popular/- get the list of 5 most popular cars (based on the amount of ratings)
+
+### Testing
+Tests are available in api/tests directory so you can navigate to this folder with 'docker-compose up' running and run 
+```bash
+pytest
+```
