@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-o@fm-c35hb=lm*z1ix$@n#f4+35m=o4(w^62t7r39ft+1=@y_m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', 'https://netguru-cars-api-kalek.herokuapp.com/']
 
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': [

@@ -1,1 +1,1 @@
-web: gunicorn netguru.wsgi --log-file
+web: python3 manage.py runserver
