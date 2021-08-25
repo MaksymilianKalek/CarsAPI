@@ -7,6 +7,7 @@ Car API is a simple Django API that allows you to manage a database containing m
 1. Clone the repository
 2. Navigate to the main folder
 3. Run
+4. You might now need to wait about 45 seconds for the application to start
 ```bash
 docker-compose up --build
 ```
