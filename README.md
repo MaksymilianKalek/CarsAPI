@@ -1,7 +1,5 @@
 # Cars API
 
-This project was created during my recruitment process to one of the software houses in Poznan.
-
 Car API is a simple Django API that allows you to manage a database containing makes and models of different cars.
 
 ## Installation
